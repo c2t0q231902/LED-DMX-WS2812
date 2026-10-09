@@ -68,8 +68,6 @@ pyinstaller --onefile --windowed --name "LED灯控" --collect-submodules bleak -
 
 * 广播名前缀：`LEDDMX-`
 
-## License
-
-MIT
+## 示例图片
 <img width="200" height="200" alt="IMG_20261009_192922" src="https://github.com/user-attachments/assets/04a56f1a-bcd1-422d-bfc6-7e9d3df42209" />
 
