@@ -8,13 +8,10 @@
 
 
 
-* 本项目为**独立第三方开源项目**，与 "LED LAMP" / "LED BLE" App 及其开发者（[ledspi.com](https://ledspi.com) / tanguixing）**无任何关联、授权或背书关系**。
 
-* 本项目通过逆向工程分析官方 APK 的通信协议编写，仅供**学习交流和个人使用**，请勿用于商业用途。
+* 本项目仅供**学习交流和个人使用**，请勿用于商业用途。
 
 * 使用者自行承担使用本软件的风险，作者不对因使用本软件造成的任何设备损坏、数据丢失或其他损失负责。
-
-* 协议帧格式通过静态分析 APK 的 DEX 字节码获得，可能随官方固件更新而失效。
 
 * 如官方开发者认为本项目侵犯其权益，请联系删除。
 
@@ -34,31 +31,8 @@
 
 * 深色主题 UI
 
-## 协议
-
-控制器 BLE GATT：
 
 
-
-| 项目           | 值                                      |
-| ------------ | -------------------------------------- |
-| Service UUID | `0000febc-0000-1000-8000-00805f9b34fb` |
-| Write Char   | `0000febd-0000-1000-8000-00805f9b34fb` |
-
-帧格式（9 字节）：`7B FF <cmd> <p1> <p2> <p3> <p4> <p5> BF`
-
-
-
-| 命令  | 字节                           | 说明 |
-| --- | ---------------------------- | -- |
-| 开   | `7B FF 04 01 FF FF FF FF BF` |    |
-| 关   | `7B FF 04 00 FF FF FF FF BF` |    |
-| RGB | `7B FF 07 R G B FF FF BF`    |    |
-| 亮度  | `7B FF 01 VV FF FF FF BF`    |    |
-| 速度  | `7B FF 02 VV FF FF FF BF`    |    |
-| 模式  | `7B FF 13 NN FF FF FF BF`    |    |
-| DIM | `7B FF 09 VV FF FF FF BF`    |    |
-| 方向  | `7B FF 0D VV FF FF FF BF`    |    |
 
 ## 运行
 
@@ -88,7 +62,7 @@ pyinstaller --onefile --windowed --name "LED灯控" --collect-submodules bleak -
 
 
 
-* 主控芯片：**Telink TLSR8251**（推测）
+* 主控芯片：**Telink TLSR8251**
 
 * 灯珠：WS2812 / WS2811 / SK6812 等可寻址灯带
 
