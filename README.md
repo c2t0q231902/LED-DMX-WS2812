@@ -71,4 +71,5 @@ pyinstaller --onefile --windowed --name "LED灯控" --collect-submodules bleak -
 ## License
 
 MIT
-<img width="121" height="121" alt="IMG_20261009_192922" src="https://github.com/user-attachments/assets/3e16549e-c272-4ad2-952d-3d80c59401d6" />
+<img width="200" height="200" alt="IMG_20261009_192922" src="https://github.com/user-attachments/assets/04a56f1a-bcd1-422d-bfc6-7e9d3df42209" />
+
