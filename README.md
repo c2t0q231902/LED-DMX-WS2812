@@ -1,3 +1,4 @@
+
 [README.md](https://github.com/user-attachments/files/33248076/README.md)
 # LED BLE 灯控 (Windows)
 
@@ -96,3 +97,4 @@ pyinstaller --onefile --windowed --name "LED灯控" --collect-submodules bleak -
 ## License
 
 MIT
+<img width="1219" height="1217" alt="IMG_20261009_192922" src="https://github.com/user-attachments/assets/3e16549e-c272-4ad2-952d-3d80c59401d6" />
